@@ -1,0 +1,446 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: lato;
+}
+#whole{
+    background-color: black;
+}
+#banner{
+    background: url("../Images/hero_man1.webp") right;
+    background-repeat: no-repeat;
+    height: 1000px;
+    background-color: rgba(0, 0, 0, 0.938);
+    padding: 10px;
+    overflow: hidden;
+    
+    
+}
+.pad{
+    padding: 20px;
+
+}
+#top
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    color: #fff;
+    /* background-color: #000; */
+    padding: 30px;
+    /* position: sticky;
+    top: 30px; */
+
+}
+#logo{
+    margin-left: 20px;
+}
+
+ul{
+    list-style-type: none;
+}
+#nav-bar{
+    text-align: center;
+    padding-left: 10    0px;
+    font-weight: bold;
+}
+#nav-bar ul
+{
+    display:flex;
+    font-size: 16px;
+    padding-left: 20px;
+
+
+}
+#nav-bar ul li a{
+    padding-left: 40px;
+    color: #fff;
+
+
+
+}
+#button{
+    background-color:#f04e3c;
+    margin-right: -130px;
+
+}
+/* banner text */
+#banner-txt
+{
+    display: grid;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 0px;
+    padding-top: 40px;
+    text-align: justify;
+}
+#banner-txt h4{
+    position: relative;
+    margin: 20px 80px;
+    color:#f34431d8 ;
+    font-size: 22px;
+}
+#banner-txt #hr{
+    position: absolute;
+    top: 70px;
+    width: 44px;
+    color:#f04e3c ;
+}
+#banner-txt h2{
+    font-family: rubik,sans-serif;
+    font-size: 70px;
+    font-weight: bold;
+
+}
+.btn
+{
+    background-color:#f04e3c ;
+    padding: 20px 40px;
+    display: inline-block;
+}
+#portfolio
+{
+margin-top: 30px;
+}
+
+/* section second */
+#second{
+    display: flex;
+    column-gap: 200px;
+    background-color: #121212;
+    color: #FFF;
+    padding:100px 50px;
+}
+#second-left h1{
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 400px bolder;
+}
+#second #second-left #email
+{
+    color:#f04e3c;
+    font-family: lato;
+    font-size: 26px;;
+    font-weight: bold;
+    padding-top:40px ;
+}
+
+#second #second-left #e-hr
+{
+    margin-top: 10px;
+    color: #f04e3c;
+    width: 148px;
+    
+}
+
+
+#second-right{
+    font-size: 22px;
+color: #fff;
+font-weight: 500;
+margin-bottom: 35px;
+line-height: 1.9;
+letter-spacing: 2px;
+font-weight: bold;
+}
+#artist-name{
+    padding-top: 40px;
+    display: flex;
+    position: relative;
+
+}
+#artist-name #h6
+{
+    color: #ccc;
+}
+#artist-name #artist-hr
+{
+position:absolute;
+left: 120px;
+bottom:30px;
+color: #ccc;
+width: 40px;
+}
+
+
+
+#artist-name #artist-hr {
+
+    position: absolute;
+    left: 174px;
+    bottom: 41px;
+    color: #ccc;
+    width: 56px;
+
+}
+#experience{
+    display: flex;
+    column-gap: 20px;
+    margin-top: 30px;
+    text-transform: uppercase;
+    font-family: "Prompt",sans-serif;
+
+}
+#experience h1{
+font-weight: bolder;
+    font-size: 90px;
+color: #fff;
+line-height: 1;
+}
+#experience h6{
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+
+/* home blog section */
+#home-blog
+{
+    padding: 100px 50px;
+    background-color:#0e0e0e;
+    display: flex;
+    column-gap: 50px;
+}
+#blog-des{
+    color: #fff;
+    line-height: 1.7;
+    background-color:#0e0e0e;
+
+    
+}
+#gallery-first 
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+}
+
+#gallery-second 
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: -3px;
+
+}
+/* brand section */
+#brand
+{
+    background-color:#0e0e0e;
+    color: #fff;
+    padding: 200px 0px;
+
+}
+#brand
+{
+    padding-left:20px ;
+}
+
+#brand-first-row
+{
+    display: flex;
+}
+#brand-left h2
+
+    {
+
+    font-family: rubik,sans-serif;
+    color: #ffff;
+    font-size: 55px;
+    line-height: 70px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#brand-left h5
+{
+    margin-top:30px;
+    font-size: 16px;
+}
+
+#brand-btn{
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+#brand-right
+{
+    display: flex;
+    column-gap: 30px;
+    margin-left: 80px;
+    
+}
+.brand-whole
+{
+    padding: 70px;
+    border: 1px solid rgba(204, 204, 204, 0.541);
+    padding:44px 70px ;
+
+    
+}
+.award-h5
+{
+    font-size: 18px;
+    line-height: 40px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-left: -10px;
+}
+#brand-span { 
+    margin-left: 35px;
+}
+#brand-second-row
+{
+    display: flex;
+    margin-top: 70px;
+    column-gap: 40px;
+    margin-left: 10px;
+    position: relative;
+}
+#brand_shape
+{
+    position: absolute;
+    margin-top :150px;
+    left: -40px;
+}
+
+/*Tourist blog  */
+
+#tourist-blog
+{
+    padding: 200px 40px;
+    background-color: #0e0e0e;
+}
+#tourist-blog-top
+{
+    text-align: center;
+    color:#fff;
+}
+#tourist-blog-top h1
+{
+
+    font-family: rubik,sans-serif;
+    color: #ffff;
+    font-size: 55px;
+    line-height: 70px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#tourist-blog-top h6
+{
+    font-size: 16px;
+    line-height: 30px;
+}
+#tourist-blog-second
+{
+    display: flex;
+    padding: 80px 90px;
+    column-gap: 30px;
+    position: relative;
+    
+}
+.images-text
+{
+    background-color: #121212;
+    position: absolute;
+    padding: 30px 45px;
+    color: #fff;
+    bottom: 40px;
+    margin-left: 30px;
+}
+.images-text h6
+{
+    line-height: 40px;
+    color: #ccc;
+    font-size: 16px;
+}
+.images-text h3
+{
+    line-height: 30px;
+    font-weight: 900;
+}
+/* #blog_shape 
+{
+    align-items: right;
+    position: absolute;
+} */
+
+#footer
+{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 40px;
+    color:#fff;
+    background-color: #121212;
+
+}
+.footer-padding
+{
+    padding:40px;
+}
+#footer p{
+    color: #fff;
+    margin-top: 30px;
+    font-weight: bold;
+}
+#footer ul{
+    margin-top: 30px;
+}
+a{
+    text-decoration: none;
+    color: rgba(204, 204, 204, 0.575);
+    line-height: 40px;
+}
+
+
+#footer-third-first-img
+{
+    margin-top: 30px;
+
+ display: flex;   
+ column-gap: 10px;
+
+}
+
+#footer-third{
+    margin-left: 100px;
+}
+
+#footer-third-second-img
+{
+    display:flex;
+ column-gap: 10px;
+ margin-top: 10px;
+
+}
+#footer-last{
+    display: flex;
+    justify-content: space-between;
+    background-color: #121212;
+    color: #fff;
+    padding: 30px 130px 30px 30px;
+}
+.red{
+    background-color: #f04e3c;
+}
+#footer-last-second
+{
+    display: flex;
+    position: relative;
+}
+#fotterspan
+{
+color: #f04e3c;
+}
+#fotter-links
+{
+    display: flex;
+    column-gap: 15px;
+    margin-top: -10px;
+    margin-left: 80px;
+}
+#footer-last-second-hr
+{
+position: absolute;
+left: 88px;
+top: 11px;
+width: 42px;
+color:rgba(204, 204, 204, 0.205);
+}
